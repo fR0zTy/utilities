@@ -1,10 +1,18 @@
 # -*- coding : utf-8 -*-
 
+import hashlib
 
-class UniqueAttrValueContainer:
+from utilities.misc.object_utils import iter_attributes
 
-    def __init__(self, iterable):
-        self.__container = list()
+
+def default_state_eval_func(obj):
+    obj_hash = hashlib.sha1()
+    for attr in iter_attributes
+
+class UniqueObjectStateContainer:
+
+    def __init__(self, iterable, state_eval_func=None):
+        self.__container = {}
 
     def add(self, value):
         pass
@@ -26,4 +34,3 @@ class UniqueAttrValueContainer:
 
 
 if __name__ == '__main__':
-    a = Un
