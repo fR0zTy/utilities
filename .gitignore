@@ -1,1 +1,6 @@
+# IDE Settings
 .vscode/*
+
+# Cache and objects
+*.pyc
+*.pyo
