@@ -4,3 +4,4 @@
 # Cache and objects
 *.pyc
 *.pyo
+*.egg-info

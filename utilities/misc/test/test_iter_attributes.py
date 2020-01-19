@@ -1,6 +1,6 @@
 # -*- coding : utf-8 -*-
 
-from misc.object_utils import iter_attributes
+from utilities.misc.object_utils import iter_attributes
 
 
 class MockObject:
